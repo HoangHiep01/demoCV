@@ -24,9 +24,14 @@ h3 {
 	margin-bottom: 0.5em;
 }
 
-.personal_infomation {
-	display: inline-flex;
-	margin: 0;
+article {
+	display: flow-root;
+}
+
+img {
+	float: left;
+/*	display: none;*/
+	margin-right: 1rem;
 }
 
 .in4 {
@@ -35,7 +40,7 @@ h3 {
 
 ul li {
 	list-style-type: none;
-	width: 150%;
+	padding-right: 10px;
 }
 
 a {
